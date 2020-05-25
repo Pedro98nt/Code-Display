@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Pedro</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        <div class="window">
+            <div class="windowNotch">
+              <div class="windowButton"></div>
+              <div class="windowButton"></div>
+              <div class="windowButton"></div>
+            </div>
+            <code class="windowContent language-js">
+              //Display your code here Pedro Soares
+              
+              angle = getAngle(this.x + this.width / 2, this.y + this.height / 2, mouse.x, mouse.y);
+              var l = 0.5 / Math.cos((Math.PI * 2 + angle - Math.PI * 0.25) % (Math.PI * 0.5) - Math.PI * 0.25);
+              this.px = this.x + this.width / 2 + Math.cos(angle) * l * this.width;
+              this.py = this.y + this.height / 2 + Math.sin(angle) * l * this.height;
+            </code>
+          </div>
+
+
+
+        
+        <script src="" async defer></script>
+    </body>
+</html>
